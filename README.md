@@ -1,10 +1,9 @@
-# ESP8266 Online Status
-ESP8266 firmware to hit URL periodically.
+# LockupSense
 
-Periodically call a URL to show that this device is 
-powered and can reach the internet. Can be used as
-part of internet connectivity monitor, wifi monitor,
-or to show when some piece of Artifactory equipment
-is inadvertently left on.
+A set of hardware/software that helps members lockup the space.
 
-![](esp8266.jpg)
+## Sensor boxes
+
+Physical boxes that report back to https://healthchecks.io when online. Using code from https://github.com/Perth-Artifactory/esp8266_online_status
+
+## Door checklist
