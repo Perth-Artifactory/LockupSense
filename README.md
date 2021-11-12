@@ -2,7 +2,7 @@
 
 A set of hardware/software that helps members lockup the space.
 
-## Sensor boxes
+## [Sensor boxes](./Sensor)
 
 Physical boxes that report back to https://healthchecks.io when online.
 
@@ -13,6 +13,8 @@ Physical boxes that report back to https://healthchecks.io when online.
 Using code from https://github.com/Perth-Artifactory/esp8266_online_status to ping a healthchecks url every 10 seconds. A successfully online board will have the onboard LED lit.
 
 ### Hardware
+
+`Box 4.5mm acrylic.dxf`
 
 An ESP8266 enclosed in an acrylic/MDF housing. Typically connected to a USB power supply plugged in to the same circut that is being monitored. All boxes should include references to https://perart.io/s for brevity which links back to this repository.
 
